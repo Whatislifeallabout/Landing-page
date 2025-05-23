@@ -1,0 +1,160 @@
+body {
+    font-family: "Roboto";
+    
+}
+
+.dark {
+    background-color: #1f2937;
+    color: white;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap:500px;
+    
+}
+
+.link-list {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-align: none;
+}
+
+.logo {
+    height: auto;
+    width: 50px;
+    flex-shrink: 0;
+}
+
+/*Section1*/
+.section1 {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.image {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+.intro-desc {
+    max-width: 200px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.header1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+/*section with the 4 boxs start here*/
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.image1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 3px solid #3882f6;
+    
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.desc1 {
+    max-width: 80px;
+    
+}
+
+/*section3 start here */
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    color: #1f2937;
+    font-weight: bold;
+    margin-left: 300px;
+   
+}
+
+/*section4 start here*/
+.section4 {
+ 
+    display: flex;
+    gap: 100px;
+    width: 700px;
+    height: 50px;
+    background-color: #3882f6;
+    margin: auto;
+    padding: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    justify-content: center ;
+    align-items: center;
+}
+
+.left {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 30px;
+}
